@@ -12,6 +12,7 @@
     font-size: 1rem;
     color: black;
     text-align: center;
+    background-image: linear-gradient(to top, white , silver);
 }
 
 nav {
@@ -159,6 +160,7 @@ ul {
     font-size: 1rem;
     color: black;
     text-align: center;
+    background-image: linear-gradient(to top, white , silver);
 }
 
 @media only screen and (max-width: 550px) {
@@ -185,6 +187,7 @@ ul {
     font-size: 1rem;
     color: black;
     text-align: center;
+    background-image: linear-gradient(to top, white , silver);
 }
 
 @media only screen and (max-width: 550px) {
@@ -202,7 +205,7 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     height: 300px;
 }
 
@@ -219,6 +222,7 @@ ul {
     font-size: 1rem;
     color: black;
     text-align: center;
+    background-image: linear-gradient(to top, white , silver);
 }
 
 @media only screen and (max-width: 550px) {
@@ -251,6 +255,7 @@ ul {
     font-size: 1rem;
     color: black;
     text-align: center;
+    background-image: linear-gradient(to top, white , silver);
 }
 
 @media only screen and (max-width: 550px) {
@@ -277,6 +282,7 @@ ul {
     font-size: 1rem;
     color: black;
     text-align: center;
+    background-image: linear-gradient(to top, white , silver);
 }
 
 @media only screen and (max-width: 550px) {
@@ -313,4 +319,5 @@ ul {
     font-size: 1rem;
     color: black;
     text-align: center;
+    background-image: linear-gradient(to top, white , silver);
 }
