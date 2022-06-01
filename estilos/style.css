@@ -143,7 +143,7 @@ footer {
     }
 }
 
-.tituloGaleria {
+.titulo {
     margin-top: 40px;
     margin: 10px;
     font-weight: 700;
@@ -174,17 +174,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.fondo {
-    background: silver;
-}
-
 .tabla {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: solid black;
 }
 
 .sectionfixture {
