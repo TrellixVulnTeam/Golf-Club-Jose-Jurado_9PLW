@@ -18,14 +18,12 @@ nav {
     grid-area: nav;
     border-radius: 5px;
     padding-top: 5px;
-    background-color: red;
 }
 
 main {
     grid-area: main;
     border-radius: 5px;
     padding-top: 5px;
-    background-color: yellow;
 }
 
 
@@ -37,14 +35,12 @@ main {
     justify-content: center;
     align-items: center;
     border: double black;
-    background-color: green;
 }
 
 #menu {
     display: flex;
     justify-content: start;
     align-items: flex-start;
-    background-color: blue;
 }
 
 footer {
@@ -56,7 +52,6 @@ footer {
     justify-content: start;
     align-items: flex-start;
     font-size: 0.6rem;
-    background-color: orange;
 }
 
 a {
@@ -148,6 +143,7 @@ ul {
     position: relative;
     display: flex;
     justify-content: center;
+    border: solid black;
 }
 
 .containerFixRes {
@@ -205,8 +201,8 @@ ul {
 .sectionGaleria {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     height: 300px;
 }
 
