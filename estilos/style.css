@@ -12,8 +12,14 @@
     font-size: 1rem;
     color: black;
     text-align: center;
-    background-image: linear-gradient(to top, white , silver);
 }
+
+body {
+    background-image: url(https://www.visa.com.ar/dam/VCOM/regional/lac/SPA/Uruguay/Pay%20With%20Visa/beneficios-golf/golf-1600x900.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
 nav {
     grid-area: nav;
@@ -53,6 +59,7 @@ footer {
     justify-content: start;
     align-items: flex-start;
     font-size: 0.6rem;
+    background-image: url(/assets/photos/footer-bg.jpg);
 }
 
 a {
@@ -115,10 +122,6 @@ ul {
 
 .titulo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.fondo {
-    background: silver;
 }
 
 .tabla {
