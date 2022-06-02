@@ -183,3 +183,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.textoNosotros {
+    margin: 0;
+    font-weight: 300;
+    color: black;
+    letter-spacing: -.04em;
+    margin-top: 40px;
+    line-height: 1.3em;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.fotojurado {
+    background-repeat: no-repeat;
+}
