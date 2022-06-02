@@ -200,5 +200,6 @@ body {
 }
 
 .fotojurado {
+    position: relative;
     background-repeat: no-repeat;
 }
