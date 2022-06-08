@@ -1,0 +1,48 @@
+.logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+header {
+  background-color: silver;
+}
+header nav {
+  background-color: grey;
+}
+
+.titulo {
+  margin-top: 40px;
+  margin: 10px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  color: #999;
+}
+footer .contenidoFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
