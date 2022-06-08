@@ -1,0 +1,19 @@
+{
+  "name": "inakituda-golfclubjosejuradonuevo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InakiTuda/Golf-Club-Jose-Jurado.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InakiTuda/Golf-Club-Jose-Jurado/issues"
+  },
+  "homepage": "https://github.com/InakiTuda/Golf-Club-Jose-Jurado#readme"
+}
