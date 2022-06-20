@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -16,7 +22,7 @@ header nav {
 .titulo {
   margin-top: 40px;
   margin: 10px;
-  font-weight: 700;
+  font-weight: 700px;
   text-align: center;
   color: black;
 }
@@ -24,6 +30,30 @@ header nav {
 .container {
   border-radius: 5px;
   padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 footer {
@@ -43,6 +73,59 @@ footer .contenidoFooter {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+footer .contenidoFooter h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+footer .contenidoFooter h5 {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+
+.table {
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.subtitulo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.redessociales li {
+  margin: 0 10px;
+}
+.redessociales a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+.redessociales a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color 0.4s ease;
+}
+.redessociales a:hover i {
+  color: aqua;
+}
+
+.fotojurado {
+  position: relative;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -155,13 +155,6 @@ body {
     background-image: linear-gradient(to right, white , silver);
 }
 
-.carrousel-mod {
-    margin: 20px auto;
-    height: auto;
-    width: 1000px;
-    border: solid black;
-}
-
 .imagenGaleria {
     display: flex;
     flex-direction: row;
