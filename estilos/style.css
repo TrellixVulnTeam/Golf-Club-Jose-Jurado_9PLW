@@ -154,15 +154,7 @@ footer {
 body {
     background-image: linear-gradient(to right, white , silver);
 }
-
-.imagenGaleria {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 10px;
-}
-     
+   
 .titulo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

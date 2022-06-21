@@ -128,4 +128,62 @@ footer .contenidoFooter h5 {
   background-repeat: no-repeat;
 }
 
+.cuerpoIndex {
+  background-image: url(https://www.visa.com.ar/dam/VCOM/regional/lac/SPA/Uruguay/Pay%20With%20Visa/beneficios-golf/golf-1600x900.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.containerDiv {
+  margin: 20px;
+  padding: 0;
+}
+
+.div1 {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+  right: 50px;
+  text-align: center;
+  padding: 30px 40px;
+  color: white;
+}
+
+.tituloIndex {
+  margin: 0;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -0.04em;
+}
+
+.subtituloIndex {
+  margin: 0;
+  font-weight: 300;
+  color: white;
+  letter-spacing: -0.04em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.textoIndex {
+  margin: 0;
+  font-weight: 300;
+  color: white;
+  letter-spacing: -0.04em;
+  margin-top: 40px;
+  line-height: 1.3em;
+}
+
+.imagenIndex {
+  margin: 10px;
+  padding: 0px;
+  justify-content: space-between;
+  background-color: #fff;
+  border: solid black;
+}
+
 /*# sourceMappingURL=style.css.map */
